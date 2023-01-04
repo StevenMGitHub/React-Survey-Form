@@ -33,7 +33,7 @@ function Formulario() {
                             </div>
 
                             <div className="form-group">
-                                <p>Would you recommend freeCodeCamp to a friend?</p>
+                                <p>Would you recommend CodeCamp to a friend?</p>
                                 <label for="">
                                     <input className="input-radio" name="user-recommed" value="definitely" type="radio"></input>
                                     Definitely
@@ -49,7 +49,7 @@ function Formulario() {
                             </div>
 
                             <div className="form-group">
-                                <p>What is your favorite feature of freeCodeCamp?</p>
+                                <p>What is your favorite feature of CodeCamp?</p>
                             <select id="most-like" className="form-control" name="mostLike" required="">
                                 <option disabled="" selected="" value="">Select an option</option>
                                 <option value="challenges">Challenges</option>
